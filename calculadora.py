@@ -22,3 +22,18 @@ def ver_historico(historico):
     if not historico:
         print("Nenhuma operação realizada ainda.")
     print()
+
+# Função principal
+def calculadora():
+    historico = []
+
+    while True:
+        print("Escolha a operação: ")
+        print("1 - Soma")
+        print("2 - Subtração")
+        print("3 - Multiplicação")
+        print("4 - Divisao")
+        print("5 - Sair")
+        print("6 - Histórico")
+
+        escolha= input("Digite sua escolha 1/2/3/4/5/6:")
